@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap);
+
+nav, footer{
+    background-color: #f3d0ae;
+}  
+.nav-link {
+  color: black;
+}
+
+header{
+ font-family: 'Courgette', cursive;
+ font-size:large;
+}
+
+header :hover{
+ color: #c09167 !important;
+ opacity: 1.0;
+}
+
+#produit{
+font-family:'Courgette', cursive; 
+}
+
+h3{
+    font-family:'Courgette', cursive; 
+  text-align: center;
+   box-shadow: #f4e9de;
+    font-style: italic;  
+}
+
+#propos{
+    font-family:'Courgette', cursive;   
+}

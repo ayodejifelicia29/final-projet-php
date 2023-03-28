@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap);
+
+#navigation, footer{
+    background-color:#f3d0ae !important; 
+ 
+}
+
+header{
+ font-family: 'Courgette', cursive;
+ font-size:large;
+
+}
+
+.ajmodifier{
+  font-family:'Courgette', cursive;
+  font-size:large;
+  text-align: center;
+  padding: 2px;
+}
+
+
+header :hover{
+  color: #c09167 !important;
+ }
+
+ .bdd{
+  font-family:'Courgette', cursive;
+  font-size:large;
+  text-align: center;
+  padding: 2px;
+ }
+
+h1{
+  border-right: solid 3px rgba(8, 8, 8, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 25px;
+  color: black;
+}
+
+/* Animation */
+h1{
+  animation: animated-text 7s steps(40,end) 1s 1 normal both,
+             animated-cursor 600ms steps(40,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(167, 167, 16, 0.75);}
+  to{border-right-color: transparent;}
+}
+
